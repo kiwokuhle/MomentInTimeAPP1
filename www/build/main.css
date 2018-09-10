@@ -27972,8 +27972,31 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
+page-home .div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  position: relative;
+  top: 40px;
+}
+
+page-home ion-icon {
+  font-size: 3.5em;
+}
+
+page-home ion-card-title {
+  font-size: 1em;
+  font-family: system;
+  font-style: normal;
+}
+
+page-home ion-card {
+  text-align: center;
+}
+
 page-register ion-content {
-  background: url("../../assets/imgs/first sprint1.png");
+  background: url("../../assets/imgs/first sprint0.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

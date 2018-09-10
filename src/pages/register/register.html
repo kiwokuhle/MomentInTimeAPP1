@@ -1,74 +1,7 @@
 <ion-content padding class="ion-content" >
 
 
-  <div class="main" >
-    <div class="logo" >
-        <img src="../../assets/imgs/christmas-star (1).png" alt="moments in time logo" width="80" >
-
-      </div>
-      <div class="sigin " >
-       <u>Singin</u>
-      </div>
-      <div  class="heading" >
-        Create new account
-      </div>
-  <ion-list class="input-list" >
-      <ion-item class="ion-item" >
-          <ion-label floating>USERNAME</ion-label>
-          <ion-input type="userame" value="" [(ngModel)]="user.name"></ion-input>
-        </ion-item>
-
-      <ion-item  class="ion-item">
-        <ion-label floating>EMAIL</ion-label>
-        <ion-input type="email" value="" [(ngModel)]="user.email"></ion-input>
-      </ion-item>
-
-      <ion-item  class="ion-item" >
-        <ion-label floating>PASSWORD</ion-label>
-        <ion-input type="password"  [(ngModel)]="user.password"></ion-input>
-      </ion-item>
-    </ion-list>
-      <div class="button" >
-          <button  ion-button round  (click)="Register(user)" full>Register</button>
-
-      </div>
-
-      <div class="signin-icons">
-
-         <div class="sigin-with" >or sigin with:</div>
-          <ion-grid class="grid" >
-          <ion-row >
-            <ion-col col-2>
-              <div>
-                  <div>
-                      <img src="../../assets/imgs/facebook (1).png" alt="facebook icon">
-                </div>
-              </div>
-            </ion-col>
-
-            <ion-col col-2>
-
-              <div>
-                  <div (click)="google()">
-                     <img src="../../assets/imgs/google-plus (4).png" alt="google icon">
-
-                </div>
-              </div>
-            </ion-col>
-            <ion-col col-2>
-
-                <div>
-                    <div>
-                        <img src="../../assets/imgs/twitter.png" alt="twitter icon">
-
-                  </div>
-                </div>
-              </ion-col>
-          </ion-row>
-          </ion-grid>
-
-</div>
-</div>
+  
 
 
   <div class="main" > 
@@ -82,7 +15,7 @@
         <div class="inputs">
             <ion-item class="ion-item" >
               <ion-label fixed ><ion-icon ios="ios-contact" md="md-contact"></ion-icon>Username</ion-label>
-              <ion-input type="userame" value="" placeholder=" "[(ngModel)]="user.username" placeholder="" ></ion-input>
+              <ion-input type="userame" value="" placeholder=" "[(ngModel)]="user.name" placeholder="" ></ion-input>
             </ion-item>
             
             <ion-item  class="ion-item">
@@ -97,7 +30,7 @@
 
           
           <div class="button" >
-            <button  ion-button round color="blue" (click)="Register()" full>Register</button>
+            <button  ion-button round color="blue" (click)="Register(user)" full>Register</button>
           </div>
              </div>
                <!-- close inputs section  -->
@@ -123,7 +56,7 @@
               </div>
                   </ion-col>
                   <ion-col col-2 >
-                    <div class="google-logo" >
+                    <div class="google-logo" (click)=" google()" >
                 <img  class="img" src="../../assets/imgs/google-plus.svg" alt="google icon">
               </div> 
                   </ion-col>
@@ -134,16 +67,9 @@
                   </ion-col>
                 </ion-row>
               </ion-grid>
-              
-              
-              
             </div>
             <!-- close sigin icons section -->
             
           </div>
           <!-- close main section -->
-          
-
-    
-
 </ion-content>

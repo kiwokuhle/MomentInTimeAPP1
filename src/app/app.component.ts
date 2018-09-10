@@ -6,6 +6,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { TabsPage } from '../pages/tabs/tabs';
 import {RegisterPage} from '../pages/register/register';
 import {LoginPage} from '../pages/login/login';
+import { HomePage } from '../pages/home/home';
 
 declare var firebase
 
@@ -20,7 +21,7 @@ export class MyApp {
     firebase.auth().onAuthStateChanged(user => {
 
       if (user) {
-        this.rootPage = LoginPage
+        this.rootPage = HomePage
         console.log(user)
       } else {
         // No user is signed in.

@@ -1,3 +1,24 @@
 page-home {
+    .div{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr ;
+        grid-gap: 1em;
+        position: relative;
+        top: 40px;
+    }
+    ion-icon{
+        font-size: 3.5em;
+        
+    }
+    ion-card-title{
+        font-size: 1em;
+        font-family: system;
+        font-style: normal;
+    }
+    ion-card{
+        text-align: center;
+    }
+
 
 }
