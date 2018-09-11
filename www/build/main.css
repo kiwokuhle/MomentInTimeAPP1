@@ -27972,19 +27972,18 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
-page-home ion-content {
-  width: 100%;
-}
-
-page-home image {
-  font-size: 3.5em;
+page-home img {
+  width: 100px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 page-home .body {
-  position: relative;
-  margin-left: -5%;
+  margin-left: -12%;
   margin-right: -5%;
-  top: -5px;
+  margin-top: 5%;
 }
 
 page-home ion-card-title {
@@ -27995,12 +27994,20 @@ page-home ion-card-title {
 
 page-home .card {
   text-align: center;
+  border: solid 1px;
+  width: 100%;
+  height: 50;
+  margin-bottom: -25px !important;
 }
 
 page-home h2 {
   font-weight: bold;
   font-display: normal;
   font-family: system;
+}
+
+page-home ion-col {
+  margin: -920%;
 }
 
 page-register ion-content {
