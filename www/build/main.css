@@ -27972,17 +27972,19 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
-page-home .div {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 1em;
-  position: relative;
-  top: 40px;
+page-home ion-content {
+  width: 100%;
 }
 
-page-home ion-icon {
+page-home image {
   font-size: 3.5em;
+}
+
+page-home .body {
+  position: relative;
+  margin-left: -5%;
+  margin-right: -5%;
+  top: -5px;
 }
 
 page-home ion-card-title {
@@ -27991,8 +27993,14 @@ page-home ion-card-title {
   font-style: normal;
 }
 
-page-home ion-card {
+page-home .card {
   text-align: center;
+}
+
+page-home h2 {
+  font-weight: bold;
+  font-display: normal;
+  font-family: system;
 }
 
 page-register ion-content {
@@ -28013,6 +28021,7 @@ page-register .signin-icons {
   bottom: -110px;
   text-align: center;
   right: -25%;
+  width: 100%;
 }
 
 page-register .sign-with {
