@@ -27972,8 +27972,39 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
+page-home ion-content {
+  width: 100%;
+}
+
+page-home image {
+  font-size: 3.5em;
+}
+
+page-home .body {
+  position: relative;
+  margin-left: -5%;
+  margin-right: -5%;
+  top: -5px;
+}
+
+page-home ion-card-title {
+  font-size: 1em;
+  font-family: system;
+  font-style: normal;
+}
+
+page-home .card {
+  text-align: center;
+}
+
+page-home h2 {
+  font-weight: bold;
+  font-display: normal;
+  font-family: system;
+}
+
 page-register ion-content {
-  background: url("../../assets/imgs/first sprint1.png");
+  background: url("../../assets/imgs/first sprint0.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -27990,6 +28021,7 @@ page-register .signin-icons {
   bottom: -110px;
   text-align: center;
   right: -25%;
+  width: 100%;
 }
 
 page-register .sign-with {

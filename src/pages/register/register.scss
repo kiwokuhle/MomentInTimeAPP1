@@ -1,7 +1,7 @@
 page-register {
     ion-content{
    
-       background:url("../../assets/imgs/first\ sprint1.png");
+       background:url("../../assets/imgs/first\ sprint0.png");
        background-size: cover;
        background-repeat: no-repeat;
        background-position: center;
@@ -12,12 +12,17 @@ page-register {
         width: 100%;
         position: relative;
         top: 5px;
+        // box-shadow: 5px 5px 5px 5px;
     }
     .signin-icons{
         position: relative;
         bottom: -110px;
         text-align: center;
         right: -25%;
+        width: 100%;
+        // background-color: blue;
+
+
     }
     .sign-with{
         position: relative;
@@ -52,6 +57,23 @@ page-register {
 
 
     }
+    // .radious{
+    //     position: relative;
+    //     background-color: #008AFF;
+    //     height: 220px;
+    //     width: 70%;
+    //     border-top-left-radius: 90%;
+    //     border-top-right-radius: 10%;
+    //     top: -80px;
+    //     left: 30%;
+    // }
+    // .bottom{
+    //     background-color: #008AFF;
+    //     border-top-left-radius: 100%;
+    //     border-top-right-radius: 100%;
+    //     width: 120%;
+    //     margin-left: -10%;
+    // }
 
    
 

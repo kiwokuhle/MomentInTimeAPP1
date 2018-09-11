@@ -1,10 +1,4 @@
 <ion-content padding class="ion-content" >
-
-
-
-  
-
-
   <div class="main" > 
     <!-- app logo -->
       <div class="logo" >
@@ -14,18 +8,18 @@
 
         <!-- start inputs section -->
         <div class="inputs">
-            <ion-item class="ion-item" >
-              <ion-label fixed ><ion-icon ios="ios-contact" md="md-contact"></ion-icon>Username</ion-label>
+            <ion-item class="ion-item" no-lines >
+              <ion-label fixed ><ion-icon  color="blue" ios="ios-contact" md="md-contact"></ion-icon>Username</ion-label>
               <ion-input type="userame" value="" placeholder=" "[(ngModel)]="user.name" placeholder="" ></ion-input>
             </ion-item>
             
-            <ion-item  class="ion-item">
-              <ion-label fixed ><ion-icon name="mail"></ion-icon>Email</ion-label>
+            <ion-item  class="ion-item" no-lines >
+              <ion-label fixed ><ion-icon  color="blue" name="mail"></ion-icon>Email</ion-label>
               <ion-input type="email" value="" placeholder="" [(ngModel)]="user.email"></ion-input>
             </ion-item>
             
-            <ion-item  class="ion-item" >
-              <ion-label fixed ><ion-icon name="lock"></ion-icon>Password</ion-label>
+            <ion-item  class="ion-item" no-lines >
+              <ion-label fixed ><ion-icon  color="blue" name="lock"></ion-icon>Password</ion-label>
               <ion-input type="password" placeholder=""  [(ngModel)]="user.password"></ion-input>
             </ion-item>
 
@@ -57,7 +51,7 @@
               </div>
                   </ion-col>
                   <ion-col col-2 >
-                    <div class="google-logo" >
+                    <div class="google-logo" (click)=" google()" >
                 <img  class="img" src="../../assets/imgs/google-plus.svg" alt="google icon">
               </div> 
                   </ion-col>
@@ -68,13 +62,9 @@
                   </ion-col>
                 </ion-row>
               </ion-grid>
-              
-              
-              
             </div>
             <!-- close sigin icons section -->
             
           </div>
           <!-- close main section -->
-
 </ion-content>

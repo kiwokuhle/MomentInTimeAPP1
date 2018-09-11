@@ -4,11 +4,46 @@ webpackJsonp([2],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var HomePage = /** @class */ (function () {
+    function HomePage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    HomePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\mqike\Pictures\MomentInTimeAPP1\src\pages\home\home.html"*/'\n\n<ion-content padding>\n\n    <div class="body" >\n\n      <ion-grid>\n\n          <ion-row>\n\n              <ion-col>\n\n                  <div>\n\n                        <ion-card class="card">\n\n                                <ion-card-content> \n\n                                    <img src="../../assets/imgs/cake.svg" alt="">\n\n                                  <ion-card-title>\n\n                                      <h3>Birthday</h3>\n\n                                     \n\n                                    </ion-card-title>\n\n                                </ion-card-content>\n\n                              </ion-card>\n\n                        \n\n\n\n                  </div>\n\n              </ion-col>\n\n              <ion-col>\n\n                <div>\n\n                        <ion-card class="card">\n\n                                <ion-card-content> \n\n                                   <img src="../../assets/imgs/graduation.svg" alt="">\n\n                                    <ion-card-title>\n\n                                        <h3>Graduation</h3>\n\n                                        \n\n                                      </ion-card-title>\n\n                                  </ion-card-content>\n\n                            </ion-card>\n\n\n\n                </div>\n\n            </ion-col>\n\n\n\n          </ion-row>\n\n\n\n    \n\n\n\n          <ion-row>\n\n              <ion-col col >\n\n                  <div>\n\n                        <ion-card>\n\n                                <ion-card-content class="card" > \n\n                                    <img src="../../assets/imgs/baby-shower.svg" alt="">\n\n                                    <ion-card-title>\n\n                                        <h3>Baby Shower</h3>\n\n                                        \n\n                                      </ion-card-title>\n\n                                  </ion-card-content>\n\n                                </ion-card>\n\n                          \n\n\n\n                  </div>\n\n              </ion-col>\n\n              <ion-col>\n\n                  <div>\n\n                        <ion-card class="card"  >\n\n                                <ion-card-content> \n\n                                    <img src="../../assets/imgs/career.svg" alt="">\n\n                                    <ion-card-title>\n\n                                        <h3>New Job/career</h3>\n\n                                      </ion-card-title>\n\n                                  </ion-card-content>\n\n                            </ion-card>\n\n                  </div>\n\n              </ion-col>\n\n          </ion-row>\n\n          \n\n          <ion-row>\n\n              <ion-col>\n\n                  <div>\n\n                        <ion-card class="card" >\n\n                                <ion-card-content> \n\n                                    <img src="../../assets/imgs/chinese-new-years-fireworks.svg" alt="">\n\n                                    <ion-card-title>\n\n                                        <h3>Anniversary</h3>\n\n                                        \n\n                                      </ion-card-title>\n\n                                  </ion-card-content>\n\n                            </ion-card>\n\n\n\n                  </div>\n\n              </ion-col>\n\n\n\n              <ion-col>\n\n                  <div>\n\n                        <ion-card class="card" >\n\n                                <ion-card-content> \n\n                                   <img src="../../assets/imgs/marry.svg" alt="">\n\n                                    <ion-card-title>\n\n                                        <h3>Wedding</h3>\n\n                                        \n\n                                      </ion-card-title>\n\n                                  </ion-card-content>\n\n                            </ion-card>\n\n\n\n                  </div>\n\n              </ion-col>\n\n          </ion-row>\n\n\n\n\n\n\n\n      </ion-grid>\n\n    </div>\n\n    \n\n\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\mqike\Pictures\MomentInTimeAPP1\src\pages\home\home.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
+    ], HomePage);
+    return HomePage;
+}());
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 101:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_database_database__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__register_register__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__register_register__ = __webpack_require__(102);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -76,7 +111,7 @@ var LoginPage = /** @class */ (function () {
     };
     LoginPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"C:\Users\Kgaot\Desktop\GroupProject\momentsInTime\src\pages\login\login.html"*/'<!--\n\n  Generated template for the LoginPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Login</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n    <ion-list>\n\n\n\n        <ion-item>\n\n          <ion-label fixed>Email</ion-label>\n\n          <ion-input type="email" value="" [(ngModel)]="user.email"></ion-input>\n\n        </ion-item>\n\n      \n\n        <ion-item>\n\n          <ion-label fixed>Password</ion-label>\n\n          <ion-input type="password"  [(ngModel)]="user.password"></ion-input>\n\n        </ion-item>\n\n\n\n        <button  ion-button (click)="Login(user)">Login</button> <br>\n\n\n\n        <a (click)="forgetPassword(user)">FORGET PASSSWORD</a>\n\n      \n\n      </ion-list>\n\n      <button (click)="de()" >register</button>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Kgaot\Desktop\GroupProject\momentsInTime\src\pages\login\login.html"*/,
+            selector: 'page-login',template:/*ion-inline-start:"C:\Users\mqike\Pictures\MomentInTimeAPP1\src\pages\login\login.html"*/'<!--\n\n  Generated template for the LoginPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Login</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n    <ion-list>\n\n\n\n        <ion-item>\n\n          <ion-label fixed>Email</ion-label>\n\n          <ion-input type="email" value="" [(ngModel)]="user.email"></ion-input>\n\n        </ion-item>\n\n      \n\n        <ion-item>\n\n          <ion-label fixed>Password</ion-label>\n\n          <ion-input type="password"  [(ngModel)]="user.password"></ion-input>\n\n        </ion-item>\n\n\n\n        <button  ion-button (click)="Login(user)">Login</button> <br>\n\n\n\n        <a (click)="forgetPassword(user)">FORGET PASSSWORD</a>\n\n      \n\n      </ion-list>\n\n      <button (click)="de()" >register</button>\n\n\n\n</ion-content>ionic serve\n\n\n\n'/*ion-inline-end:"C:\Users\mqike\Pictures\MomentInTimeAPP1\src\pages\login\login.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_database_database__["a" /* DatabaseProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
     ], LoginPage);
@@ -87,7 +122,7 @@ var LoginPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 101:
+/***/ 102:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -161,7 +196,7 @@ var RegisterPage = /** @class */ (function () {
     };
     RegisterPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-register',template:/*ion-inline-start:"C:\Users\Kgaot\Desktop\GroupProject\momentsInTime\src\pages\register\register.html"*/'<ion-content padding class="ion-content" >\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  <div class="main" > \n\n    <!-- app logo -->\n\n      <div class="logo" >\n\n          <img src="../../assets/icon/favicon.ico" alt="moments in time logo" width="80" >\n\n        </div>\n\n         <!-- end of app logo -->\n\n\n\n        <!-- start inputs section -->\n\n        <div class="inputs">\n\n            <ion-item class="ion-item" >\n\n              <ion-label fixed ><ion-icon ios="ios-contact" md="md-contact"></ion-icon>Username</ion-label>\n\n              <ion-input type="userame" value="" placeholder=" "[(ngModel)]="user.name" placeholder="" ></ion-input>\n\n            </ion-item>\n\n            \n\n            <ion-item  class="ion-item">\n\n              <ion-label fixed ><ion-icon name="mail"></ion-icon>Email</ion-label>\n\n              <ion-input type="email" value="" placeholder="" [(ngModel)]="user.email"></ion-input>\n\n            </ion-item>\n\n            \n\n            <ion-item  class="ion-item" >\n\n              <ion-label fixed ><ion-icon name="lock"></ion-icon>Password</ion-label>\n\n              <ion-input type="password" placeholder=""  [(ngModel)]="user.password"></ion-input>\n\n            </ion-item>\n\n\n\n          \n\n          <div class="button" >\n\n            <button  ion-button round color="blue" (click)="Register(user)" full>Register</button>\n\n          </div>\n\n             </div>\n\n               <!-- close inputs section  -->\n\n\n\n               <!-- start signin section -->\n\n             \n\n             <div class="signin" >\n\n               <!-- signin with section -->\n\n               <div class="sign-with"  (click)="Login()">\n\n                 <p  >Sigin with:</p>\n\n                </div>\n\n                <!-- close sigin with section -->\n\n             </div>\n\n            <!-- close signin section  -->\n\n            <!-- start  sigin with icons section -->\n\n\n\n            <div class="signin-icons">\n\n              <ion-grid>\n\n                <ion-row>\n\n                  <ion-col col-2 >\n\n                    <div class="facebook-logo" >\n\n                <img class="img" src="../../assets/imgs/facebook (2).svg" alt="facebook icon">\n\n              </div>\n\n                  </ion-col>\n\n                  <ion-col col-2 >\n\n                    <div class="google-logo" >\n\n                <img  class="img" src="../../assets/imgs/google-plus.svg" alt="google icon">\n\n              </div> \n\n                  </ion-col>\n\n                  <ion-col col-2 >\n\n                    <div>\n\n                <img class="twitter-logo" src="../../assets/imgs/twitter.svg" alt="twitter icon">\n\n              </div>\n\n                  </ion-col>\n\n                </ion-row>\n\n              </ion-grid>\n\n              \n\n              \n\n              \n\n            </div>\n\n            <!-- close sigin icons section -->\n\n            \n\n          </div>\n\n          <!-- close main section -->\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Kgaot\Desktop\GroupProject\momentsInTime\src\pages\register\register.html"*/,
+            selector: 'page-register',template:/*ion-inline-start:"C:\Users\mqike\Pictures\MomentInTimeAPP1\src\pages\register\register.html"*/'<ion-content padding class="ion-content" >\n\n  <div class="main" > \n\n    <!-- app logo -->\n\n      <div class="logo" >\n\n          <img src="../../assets/icon/favicon.ico" alt="moments in time logo" width="80" >\n\n        </div>\n\n         <!-- end of app logo -->\n\n\n\n        <!-- start inputs section -->\n\n        <div class="inputs">\n\n            <ion-item class="ion-item" no-lines >\n\n              <ion-label fixed ><ion-icon  color="blue" ios="ios-contact" md="md-contact"></ion-icon>Username</ion-label>\n\n              <ion-input type="userame" value="" placeholder=" "[(ngModel)]="user.name" placeholder="" ></ion-input>\n\n            </ion-item>\n\n            \n\n            <ion-item  class="ion-item" no-lines >\n\n              <ion-label fixed ><ion-icon  color="blue" name="mail"></ion-icon>Email</ion-label>\n\n              <ion-input type="email" value="" placeholder="" [(ngModel)]="user.email"></ion-input>\n\n            </ion-item>\n\n            \n\n            <ion-item  class="ion-item" no-lines >\n\n              <ion-label fixed ><ion-icon  color="blue" name="lock"></ion-icon>Password</ion-label>\n\n              <ion-input type="password" placeholder=""  [(ngModel)]="user.password"></ion-input>\n\n            </ion-item>\n\n\n\n          \n\n          <div class="button" >\n\n            <button  ion-button round color="blue" (click)="Register(user)" full>Register</button>\n\n          </div>\n\n             </div>\n\n               <!-- close inputs section  -->\n\n\n\n               <!-- start signin section -->\n\n             \n\n             <div class="signin" >\n\n               <!-- signin with section -->\n\n               <div class="sign-with"  (click)="Login()">\n\n                 <p  >Sigin with:</p>\n\n                </div>\n\n                <!-- close sigin with section -->\n\n             </div>\n\n            <!-- close signin section  -->\n\n            <!-- start  sigin with icons section -->\n\n\n\n            <div class="signin-icons">\n\n              <ion-grid>\n\n                <ion-row>\n\n                  <ion-col col-2 >\n\n                    <div class="facebook-logo" >\n\n                <img class="img" src="../../assets/imgs/facebook (2).svg" alt="facebook icon">\n\n              </div>\n\n                  </ion-col>\n\n                  <ion-col col-2 >\n\n                    <div class="google-logo" (click)=" google()" >\n\n                <img  class="img" src="../../assets/imgs/google-plus.svg" alt="google icon">\n\n              </div> \n\n                  </ion-col>\n\n                  <ion-col col-2 >\n\n                    <div>\n\n                <img class="twitter-logo" src="../../assets/imgs/twitter.svg" alt="twitter icon">\n\n              </div>\n\n                  </ion-col>\n\n                </ion-row>\n\n              </ion-grid>\n\n            </div>\n\n            <!-- close sigin icons section -->\n\n            \n\n          </div>\n\n          <!-- close main section -->\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\mqike\Pictures\MomentInTimeAPP1\src\pages\register\register.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_database_database__["a" /* DatabaseProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ToastController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
     ], RegisterPage);
@@ -172,7 +207,7 @@ var RegisterPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 113:
+/***/ 114:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -185,11 +220,11 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 113;
+webpackEmptyAsyncContext.id = 114;
 
 /***/ }),
 
-/***/ 155:
+/***/ 156:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -213,12 +248,12 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 155;
+webpackAsyncContext.id = 156;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 200:
+/***/ 201:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -242,7 +277,7 @@ var AboutPage = /** @class */ (function () {
     }
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"C:\Users\Kgaot\Desktop\GroupProject\momentsInTime\src\pages\about\about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      About\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Kgaot\Desktop\GroupProject\momentsInTime\src\pages\about\about.html"*/
+            selector: 'page-about',template:/*ion-inline-start:"C:\Users\mqike\Pictures\MomentInTimeAPP1\src\pages\about\about.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      About\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\mqike\Pictures\MomentInTimeAPP1\src\pages\about\about.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], AboutPage);
@@ -253,7 +288,7 @@ var AboutPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 201:
+/***/ 202:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -277,7 +312,7 @@ var ContactPage = /** @class */ (function () {
     }
     ContactPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-contact',template:/*ion-inline-start:"C:\Users\Kgaot\Desktop\GroupProject\momentsInTime\src\pages\contact\contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Contact\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-list-header>Follow us on Twitter</ion-list-header>\n    <ion-item>\n      <ion-icon name="ionic" item-start></ion-icon>\n      @ionicframework\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\Users\Kgaot\Desktop\GroupProject\momentsInTime\src\pages\contact\contact.html"*/
+            selector: 'page-contact',template:/*ion-inline-start:"C:\Users\mqike\Pictures\MomentInTimeAPP1\src\pages\contact\contact.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Contact\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <ion-list-header>Follow us on Twitter</ion-list-header>\n\n    <ion-item>\n\n      <ion-icon name="ionic" item-start></ion-icon>\n\n      @ionicframework\n\n    </ion-item>\n\n  </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\mqike\Pictures\MomentInTimeAPP1\src\pages\contact\contact.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], ContactPage);
@@ -285,41 +320,6 @@ var ContactPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=contact.js.map
-
-/***/ }),
-
-/***/ 202:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var HomePage = /** @class */ (function () {
-    function HomePage(navCtrl) {
-        this.navCtrl = navCtrl;
-    }
-    HomePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Kgaot\Desktop\GroupProject\momentsInTime\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n\n\n  <p>sinazo2</p>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Kgaot\Desktop\GroupProject\momentsInTime\src\pages\home\home.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
-    ], HomePage);
-    return HomePage;
-}());
-
-//# sourceMappingURL=home.js.map
 
 /***/ }),
 
@@ -346,16 +346,16 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(271);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_about_about__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_contact_contact__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_about_about__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_contact_contact__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_tabs_tabs__ = __webpack_require__(279);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_status_bar__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_splash_screen__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_status_bar__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_splash_screen__ = __webpack_require__(200);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_database_database__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_login_login__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_register_register__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__angular_common_http__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_login_login__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_register_register__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__angular_common_http__ = __webpack_require__(157);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -426,9 +426,10 @@ var AppModule = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_login_login__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_login_login__ = __webpack_require__(101);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -443,13 +444,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var MyApp = /** @class */ (function () {
     function MyApp(platform, statusBar, splashScreen) {
         var _this = this;
-        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_login_login__["a" /* LoginPage */];
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__["a" /* TabsPage */];
         firebase.auth().onAuthStateChanged(function (user) {
             if (user) {
-                _this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_login_login__["a" /* LoginPage */];
+                _this.rootPage = __WEBPACK_IMPORTED_MODULE_5__pages_login_login__["a" /* LoginPage */];
                 console.log(user);
             }
             else {
@@ -465,11 +467,12 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Kgaot\Desktop\GroupProject\momentsInTime\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"C:\Users\Kgaot\Desktop\GroupProject\momentsInTime\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\mqike\Pictures\MomentInTimeAPP1\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\mqike\Pictures\MomentInTimeAPP1\src\app\app.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _c || Object])
     ], MyApp);
     return MyApp;
+    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=app.component.js.map
@@ -482,9 +485,9 @@ var MyApp = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__about_about__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contact__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__about_about__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contact__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(100);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -505,7 +508,7 @@ var TabsPage = /** @class */ (function () {
         this.tab3Root = __WEBPACK_IMPORTED_MODULE_2__contact_contact__["a" /* ContactPage */];
     }
     TabsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Kgaot\Desktop\GroupProject\momentsInTime\src\pages\tabs\tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="About" tabIcon="information-circle"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Contact" tabIcon="contacts"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"C:\Users\Kgaot\Desktop\GroupProject\momentsInTime\src\pages\tabs\tabs.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\mqike\Pictures\MomentInTimeAPP1\src\pages\tabs\tabs.html"*/'<ion-tabs color="blue" >\n\n  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home" colo="red" ></ion-tab>\n\n  <ion-tab [root]="tab2Root" tabTitle="About" tabIcon="information-circle"></ion-tab>\n\n  <ion-tab [root]="tab3Root" tabTitle="Contact" tabIcon="contacts"></ion-tab>\n\n</ion-tabs>\n\n\n\n'/*ion-inline-end:"C:\Users\mqike\Pictures\MomentInTimeAPP1\src\pages\tabs\tabs.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], TabsPage);
@@ -521,7 +524,7 @@ var TabsPage = /** @class */ (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DatabaseProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(157);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
